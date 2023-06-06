@@ -1,0 +1,82 @@
+[
+  {
+      "name": "Graphic Design Tablet",
+      "description": "A high quality tablet for graphic designers.",
+      "category": "Electronics",
+      "price": 150.00,
+      "quantity": 25,
+      "image": "http://example.com/graphic-tablet.jpg"
+  },
+  {
+      "name": "Acrylic Paint Set",
+      "description": "A set of 24 high pigment acrylic paints.",
+      "category": "Arts and Crafts",
+      "price": 35.00,
+      "quantity": 50,
+      "image": "http://example.com/acrylic-paints.jpg"
+  },
+  {
+      "name": "Leather Bound Sketchbook",
+      "description": "A durable sketchbook for artists.",
+      "category": "Arts and Crafts",
+      "price": 20.00,
+      "quantity": 30,
+      "image": "http://example.com/sketchbook.jpg"
+  },
+  {
+      "name": "Professional Camera",
+      "description": "A professional grade digital camera.",
+      "category": "Electronics",
+      "price": 1200.00,
+      "quantity": 15,
+      "image": "http://example.com/camera.jpg"
+  },
+  {
+      "name": "Digital Art Software",
+      "description": "Leading software for digital artists.",
+      "category": "Software",
+      "price": 80.00,
+      "quantity": 200,
+      "image": "http://example.com/art-software.jpg"
+  },
+  {
+      "name": "Easel Stand",
+      "description": "A sturdy and adjustable easel stand.",
+      "category": "Arts and Crafts",
+      "price": 70.00,
+      "quantity": 20,
+      "image": "http://example.com/easel-stand.jpg"
+  },
+  {
+      "name": "3D Printer",
+      "description": "A compact 3D printer for home use.",
+      "category": "Electronics",
+      "price": 300.00,
+      "quantity": 10,
+      "image": "http://example.com/3d-printer.jpg"
+  },
+  {
+      "name": "Sculpting Tool Set",
+      "description": "A set of sculpting tools for clay and other materials.",
+      "category": "Arts and Crafts",
+      "price": 25.00,
+      "quantity": 50,
+      "image": "http://example.com/sculpting-tools.jpg"
+  },
+  {
+      "name": "Oil Pastel Set",
+      "description": "A set of 48 oil pastels in various colors.",
+      "category": "Arts and Crafts",
+      "price": 15.00,
+      "quantity": 60,
+      "image": "http://example.com/oil-pastels.jpg"
+  },
+  {
+      "name": "Photography Lighting Kit",
+      "description": "A complete lighting kit for professional photography.",
+      "category": "Electronics",
+      "price": 200.00,
+      "quantity": 10,
+      "image": "http://example.com/lighting-kit.jpg"
+  }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "storeName": "Eduardo's Cabinets",
+        "colorBackground": "#E7D2CC",
+        "email": "EduardoCab@EDU.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "EDUardoCab"
+    },
+    {
+        "storeName": "NikeUSA",
+        "colorBackground": "#B9B7BD",
+        "email": "Nikestore@nike.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "Nikestore"
+    },
+    {
+        "storeName": "H&M",
+        "colorBackground": "#868B8E",
+        "email": "h&mstore@yahoo.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "H&Mstore"
+    },
+    {
+        "storeName": "Lalos Bakery",
+        "colorBackground": "#EEEDE7",
+        "email": "LalosBakery@bake.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "Bakery"
+    },
+    {
+        "storeName": "Anthony Soccer Store",
+        "colorBackground": "#647C90",
+        "email": "Soccerstore@example.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "Anthony_$occer"
+    },
+    {
+        "storeName": "Harold Store",
+        "colorBackground": "#E2DED0",
+        "email": "Haroldstore@harold.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "Store from Harold"
+    },
+    {
+        "storeName": "Gualmart",
+        "colorBackground": "#4E4F50",
+        "email": "gualmart@gmail.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "super gualmart"
+    },
+    {
+        "storeName": "Bulls Eye",
+        "colorBackground": "#970C10",
+        "email": "bullsEye@eye.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "Targets"
+    },
+    {
+        "storeName": "Harold Glasses",
+        "colorBackground": "#738580",
+        "email": "glassesstore@harold.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "cool glasses"
+    },
+    {
+        "storeName": "GymCat",
+        "colorBackground": "#BFCAD0",
+        "email": "gymstore@cat.com",
+        "phoneNumber": 1234567890,
+        "storeLogo": "store_logo.jpg",
+        "username": "GYMcat"
+    }
+]
+
+
+

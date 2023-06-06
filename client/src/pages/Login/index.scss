@@ -1,0 +1,82 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4rem;
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+  }
+  
+
+  .card {
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  
+  .card-header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #D4F1F4;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #D4F1F4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #D4F1F4;
+  }
+  
+  .my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .p-3 {
+    padding: 1rem;
+
+  }
+  
+  .bg-danger {
+    background-color: #dc3545;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+
+
+
+h4{
+    font-family: 'Bebas Neue', sans-serif;
+}
+

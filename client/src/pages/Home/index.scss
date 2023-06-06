@@ -1,0 +1,32 @@
+
+//   @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.homepage{
+
+    margin: auto 150px;
+    p{
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    h3{
+        font-family: 'Pacifico', cursive;
+    }
+    h1{
+        font-family: 'Pacifico', cursive;
+        font-weight: 900;
+        
+    }
+    .info{
+        line-height: 1.5rem;
+    }
+    .btn1{
+        border: black solid 1px;
+        background-color: lightgreen;
+        border-radius: .3rem;
+        width: 4rem;
+        height: 1rem;
+        
+        &:hover{
+            background-color: transparent;
+        }
+    }
+}

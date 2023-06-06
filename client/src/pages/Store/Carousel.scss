@@ -1,0 +1,76 @@
+.store {
+    /* Styles for the product component */
+    h3{
+      font-family: 'Pacifico', cursive;
+    }
+  .primary-button{
+    position: absolute;
+    left: 40vw;
+    top: 40vh
+  }
+
+  
+    .carousel {
+      /* Styles for the carousel */
+      position: absolute;
+      left: 110px;
+      top: 10px;
+      width: 70%;
+      height: 200px;
+      overflow: hidden;
+  
+      .slides {
+        /* Styles for the slide container */
+        display: flex;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease-in-out;
+  
+        .slide {
+          /* Styles for each slide */
+          flex: 0 0 100%;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+  
+      .answer-input {
+        /* Styles for the answer input */
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+      }
+  
+      .prev-button,
+      .next-button {
+        /* Styles for the previous and next buttons */
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 5px 10px;
+        border: none;
+        background-color: lightgray;
+        color: white;
+        cursor: pointer;
+  
+        &:disabled {
+          /* Styles for the disabled state */
+          background-color: gray;
+          cursor: not-allowed;
+        }
+      }
+  
+      .prev-button {
+        left: 10px;
+      }
+  
+      .next-button {
+        right: 10px;
+      }
+    }
+  }
+  

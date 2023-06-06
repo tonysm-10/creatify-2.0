@@ -1,0 +1,50 @@
+.navbar{
+  background-color: #E7D2CC;
+  width: 60px;
+  height: 100vh;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  border-right: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+  margin-top: 20px;
+  width: 30px;
+}
+.login-link,
+.signup-link {
+  list-style-type: none;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    
+  }
+}
+
+//dont forget to add the "a"
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-items: list-separator;
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+
+  text-decoration: none;
+
+  .colorIcon{
+      color: #868B8E;
+      margin-top: 15px;
+      &.active {
+          svg {
+            color: #50C878;
+          }
+        }
+      &:hover {
+          color: #4D4D4E;
+        }
+  }
+}

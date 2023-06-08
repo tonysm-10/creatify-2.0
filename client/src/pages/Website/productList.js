@@ -6,26 +6,41 @@ import ProductCard from './productCard';
 
 const ProductList = () => {
   const [username, setUsername] = useState('');
+  const [submitted, setSubmitted] = useState(false); // Flag to track form submission
 
-  const { loading, error, data } = useQuery(QUERY_USER, {
+  const { loading, error, data, refetch } = useQuery(QUERY_USER, {
     variables: { username },
+    skip: !submitted, // Skip the initial query until the form is submitted
   });
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
 
-  const user = data.user;
+  const user = data?.user;
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent default form submission behavior
+
+    if (username.trim() !== '') {
+      setSubmitted(true); // Update the submitted flag
+      refetch({ username });
+    }
+  };
+
+  console.log(data); // Log the data object
 
   if (!user) {
     return (
-      <div className='position'>
+      <div className="position">
         <p>User not found</p>
-        <input
-          type="text"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <button onClick={() => setUsername(username)}>Submit</button>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <button type="submit">Submit</button>
+        </form>
       </div>
     );
   }
@@ -33,7 +48,7 @@ const ProductList = () => {
   const products = user.stores.flatMap((store) => store.products);
 
   return (
-    <div className='header'>
+    <div className="header">
       <h1>Your Website</h1>
       <div className="product-list">
         {products.map((product) => (

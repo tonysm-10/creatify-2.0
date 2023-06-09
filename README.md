@@ -21,7 +21,7 @@ This is where the motivation for developing Creatify emerged. We recognized a ga
   
   1.You can clone this repository to your local machine using Git:
   
-  2. Git clone https://github.com/tonysm-10/creatify-app.
+  2. Git clone https://github.com/tonysm-10/creatify-2.0.
   
   3. Next, run the following on the command line, npm run install .  
   
@@ -36,7 +36,7 @@ Moreover, we recognized that efficient user account management is critical for b
 By providing these features in an intuitive and easy-to-use interface, Creatify aims to empower small business owners, allowing them to focus more on their products, their customers, and their business growth. The ultimate goal is to democratize the process of establishing an online store, making eCommerce a feasible and attainable endeavor for all small business owners.
 
   
- LINK TO DEPLOYED APPLICATION: https://fathomless-crag-99497.herokuapp.com/
+ LINK TO DEPLOYED APPLICATION: 
   
   ## License
   This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
@@ -45,5 +45,5 @@ By providing these features in an intuitive and easy-to-use interface, Creatify 
   Many thanks to our Tutors and Bryan and Shawn for helping us on developing this application.
 
   ## Questions
-  For any questions, please contact undefined at haroldgonzales@yahoo.com. Visit our github link 
-  https://github.com/tonysm-10 or https://github.com/harold-fv  to view more of my work
+  For any questions, please refer to the project repo! Visit our github link 
+  https://github.com/tonysm-10 or https://github.com/LaloEnri23 to view more.
